@@ -1,6 +1,6 @@
 # karabiner-config
 
-My config for Karabiner-Elements, now it's tailor-made for Filco mininal.
+My config for Karabiner-Elements, now it's tailor-made for Filco Minila.
 
 ## Installation
 
