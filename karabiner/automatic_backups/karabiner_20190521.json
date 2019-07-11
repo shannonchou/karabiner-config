@@ -941,51 +941,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "HHKB, FILCO MINILA Change left control to esc if alone",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "identifiers": [
-                                            {
-                                                "product_id": 256,
-                                                "vendor_id": 2131
-                                            },
-                                            {
-                                                "product_id": 514,
-                                                "vendor_id": 1278
-                                            },
-                                            {
-                                                "product_id": 34050,
-                                                "vendor_id": 2652
-                                            }
-                                        ],
-                                        "type": "device_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "left_control",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "escape"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
