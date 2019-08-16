@@ -1172,34 +1172,9 @@
                         "product_id": 256,
                         "vendor_id": 2131
                     },
-                    "ignore": false,
+                    "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": {
-                                "key_code": "backslash"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "grave_accent_and_tilde"
-                            },
-                            "to": {
-                                "key_code": "delete_or_backspace"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "backslash"
-                            },
-                            "to": {
-                                "key_code": "grave_accent_and_tilde"
-                            }
-                        }
-                    ]
+                    "simple_modifications": []
                 },
                 {
                     "disable_built_in_keyboard_if_exists": true,
@@ -1377,9 +1352,6 @@
                 }
             ],
             "name": "shannon kwai mac",
-            "parameters": {
-                "delay_milliseconds_before_open_device": 1000
-            },
             "selected": true,
             "simple_modifications": [
                 {
@@ -1394,8 +1366,7 @@
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi",
-                "mouse_key_xy_scale": 100
+                "keyboard_type": "ansi"
             }
         }
     ]
